@@ -1,5 +1,45 @@
 @import "~bootstrap/scss/bootstrap.scss";
 
+*,*::after,*::before {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.fondo {
+    background-color: black;
+    width: 100vw;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cuadro {
+    width: 130px;
+    height: 150px;
+    background-color: #242323;
+    border-radius: 5%;
+    display: flex;
+    margin-left: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.icon-reloj{
+    width: 160px;
+    height: 150px;
+    background-color: #242323;
+    border-radius: 5%;
+    display: flex;
+    margin-left: 20px;
+    justify-content: center;
+    align-items: center;
+
+}
+.reloj{
+    color: white;
+    font-size: 100px;
+}
 /* 
 
     You can write your own styles here...
@@ -11,3 +51,4 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+
